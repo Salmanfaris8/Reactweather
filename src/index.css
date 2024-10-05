@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.image-d1{
+  background-image: url(https://www.reallusion.com/ContentStore/CTA/Pack/G3-Animation-Suite-Weather-Maker/images/sunny.jpg);
+  background-size: cover;
+}
+.input-d1{
+  width: 400px;
+}
+
+@media(max-width:480px){
+  .input-d1{
+    width: 200px;
+  }
+}
